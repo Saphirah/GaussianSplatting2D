@@ -6,7 +6,11 @@ A Python library for image approximation via adaptive 2D Gaussian splatting. Ite
 
 - Adaptive sample splitting and scaling based on gradient magnitude  
 - Quantized export for ShaderToy as `uvec4` arrays  
-- Checkpointing and multi-bit quantization of splat parameters  
+- Checkpointing and multi-bit quantization of splat parameters
+
+## Example Shader
+
+https://www.shadertoy.com/view/Wc33W4
 
 ## Installation
 
@@ -44,7 +48,7 @@ pip install -r requirements.txt
   - `16-bit-quantized-<name>.pt`  
   - `8-bit-quantized-<name>.pt`  
 - Reconstruction and target side-by-side images in `training/<name>/images/`  
-- Clipboard export of `uvec4` arrays for ShaderToy  
+- Clipboard export of `uvec4` arrays for ShaderToy
 
 ## License
 
